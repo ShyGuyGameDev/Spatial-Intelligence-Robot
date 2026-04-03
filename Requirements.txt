@@ -1,0 +1,4 @@
+For demo:
+  Installed packages — at least ultralytics, opencv-python, and numpy (what the script’s import error message says).
+  Network on first run — unless yolo11n.pt (or whatever you set in Config.model_path) is already cached locally, Ultralytics will download weights.
+  A working camera — camera_index / stream_url must match the machine (e.g. often 0 instead of 2).
